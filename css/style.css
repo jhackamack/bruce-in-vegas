@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #52d3aa;
+  background: #d9ba66;
 }
 
 .gtco-container {
@@ -204,10 +204,11 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .gtco-nav ul li.btn-cta a {
-  color: #52d3aa;
+  color: #d9ba66;
 }
 .gtco-nav ul li.btn-cta a span {
-  background: #fff;
+  background: transparent;
+  border: 1px solid #fff;
   padding: 4px 20px;
   display: -moz-inline-stack;
   display: inline-block;
@@ -427,7 +428,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #52d3aa;
+  color: #d9ba66;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -446,7 +447,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .gtco-contact-info ul li:before {
-  color: #52d3aa;
+  color: #d9ba66;
   position: absolute;
   left: 0;
   top: .05em;
@@ -523,8 +524,8 @@ form label {
 #gtco-counter .display-tc .btn,
 .gtco-cover .display-tc .btn {
   padding: 15px 30px;
-  background: #fff !important;
-  color: #52d3aa;
+  background: rgba(0,0,0, 0.4) !important;
+  color: #d9ba66;
   border: none !important;
   font-size: 18px;
   text-transform: uppercase;
@@ -1392,4 +1393,8 @@ form label {
   opacity: 0;
 }
 
+.dollar::before {
+  content: "$ ";
+}
 /*# sourceMappingURL=style.css.map */
+
